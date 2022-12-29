@@ -1,2 +1,2 @@
-# portfolio-
+# portfolio
 Første semester portfolio site 
