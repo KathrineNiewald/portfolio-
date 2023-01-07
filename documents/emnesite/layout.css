@@ -1,0 +1,44 @@
+@media (min-width: 810px) {
+
+
+    
+body {
+      max-width: 1200px;
+
+    }
+
+
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      list-style-type:none;
+      padding: 1rem 2rem;
+      box-shadow: 0.5px 0.5px 1px;
+      font-size: 1rem;
+
+    }
+
+    .container3{
+      display: flex;  
+      grid-column: 1fr;
+
+
+    }
+
+    .container5{
+        display: flex;  
+        grid-column: 1fr 1fr;
+  
+      }
+
+      .container7{
+        display: flex;  
+      }
+
+
+   
+    }
+
+
+  
