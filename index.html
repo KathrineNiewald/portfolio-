@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Forside</title>
+    <link rel="icon" href="favicon/icon.png">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -13,15 +14,26 @@
   <div id="header">
     <div class="container">
       <nav>
-        <img src="img/logo.png" alt="logo">
+        <div class="logo">
+          <a href="index.html" aria-label="button"><img class="logo" src="img/logo.png" alt="" /></a>
+        </div>
+        </button>
         <ul class="nav-links">
-          <li><a class="nav-link" href="index.html">FORSIDE</a></li>
-          <li><a class="nav-link" href="portfolio.html">PORTFOLIO</a><li>
+          <li><a class="nav-link" href="portfolio.html">PORTFOLIO</a></li>
           <li><a class="nav-link" href="ommig.html">OM MIG</a></li>
         </ul>
-      </nav>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        </nav>
     </div>
   </div>
   </header>
+  <footer id="footer">
+    <h3>© Made by Kathrine 2023</h3>
+  </footer>
+  <script src="hamburger.js"></script>
   </body>
 </html>

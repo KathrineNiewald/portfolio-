@@ -29,6 +29,7 @@
         justify-content: space-between;
         font-family: Montserrat;
         font-weight: bolder;
+        display: flex;
     }
     
     nav ul li{
@@ -107,5 +108,57 @@
      .film {
         position: relative;
      }
-
+    
+    .hamburger{
+      display: none;
+      cursor: pointer;
+  }
+  
+  .bar{
+      display: block;
+      width:25px;
+      height:3px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out; 
+      transition: all 0.3s ease-in-out; 
+      background-color: #1F009F ;
+  
+  }
+  
+  @media (max-width:800px) {
+      .hamburger{
+          display: block;
+      }
+  
+      .hamburger.active .bar:nth-child(2){
+          opacity: 0;
+      }
+      .hamburger.active .bar:nth-child(1){
+          transform: translateY(-8px) rotate(-45deg);
+      }
+  
+      .nav-links{
+          position: fixed;
+          left:-100%;
+          top:70px;
+          gap: 0;
+          flex-direction: column;
+          width: 100%;
+          text-align: center;
+          transition: 0.3s;
+  
+  
+      }
+  
+      .nav-links.active{
+          left:0;
+  
+      }
+  }
+  
+    
+      
+  
+  
+  
   
