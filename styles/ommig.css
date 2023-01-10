@@ -68,7 +68,6 @@ nav ul li a:hover::after{
 
 .row {
     display: grid;
-    position: center;
     
 }
 

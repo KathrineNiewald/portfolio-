@@ -16,11 +16,11 @@
         height: 100vh;
         background:white;
     }
-       
-    
+  
     .container {
         padding: 5px 10%;
         background: linear-gradient(#F1ECE6,#FDFEFE);
+ 
      }
     
     
@@ -68,7 +68,9 @@
     text-align: center; 
     line-height: 70px;
     font-weight: 500;
+
     }
+
 
     h2{
         font-size: 25px;
@@ -78,6 +80,16 @@
         font-weight: 600;
         margin-top: 5%;
         }
+
+        h3{
+            font-size: 20px;
+            color:#1F009F;
+            font-family: Montserrat;
+            text-align: center; 
+            font-weight: 500;
+            margin-top: 5%;
+            line-height: 40px;
+            }
 
         p{
             font-size: 20px;
@@ -173,5 +185,3 @@
         
             }
         }
-        
-        
