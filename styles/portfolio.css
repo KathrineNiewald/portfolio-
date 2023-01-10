@@ -112,6 +112,22 @@ display: inline-block;
 background:#ded9f1;
 transform: translateY(-10px);
 } 
+.tema{
+    color: #1F009F;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    font-weight: 400;
+}
+
+.opgave{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    font-weight: 300;
+}
+
 
 
 }
@@ -131,7 +147,7 @@ transform: translateY(-10px);
 
 }
 
-@media (max-width:800px) {
+@media (max-width:2000px) {
     .hamburger{
         display: block;
     }
@@ -152,6 +168,8 @@ transform: translateY(-10px);
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        background-color: #FAF5EF;
+        display: flex;
 
 
     }

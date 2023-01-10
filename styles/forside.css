@@ -14,35 +14,26 @@
 body{
     background: #F1ECE6;
     color: black;
+    background-image:url(img/bygning.png);
 
 }
 
 
-#header{
+#header {
     width: 100%;
     height: 100vh;
     background-image:url(img/bygning.png);
     background-size: cover;
     background-position: center;
-    
 }
 
-#footer{
-    background-color: #F1ECE6;
-    position: relative;
-    height: 50px;
-    margin-top:30px;
-    clear:both;
-    font-family: Montserrat;
-    font-weight:bolder;
-    color: #1F009F;
-    text-align: center;
-}
+
 
 .container {
     padding: 5px 10%;
 
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -52,21 +43,47 @@ nav {
     font-weight:bolder;
 
 }
+#footer h3{
+    background-color: #F1ECE6;
+    position: relative;
+    height: 40px;
+    margin-top:1px;
+    clear:both;
+    font-family: Montserrat;
+    font-weight:bolder;
+    color: #1F009F;
+    text-align: center;
+}
 
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
     margin-top: 1%;
-
 }
 
 nav ul li a {
     color: #1F009F;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
+    font-weight: 600;
+}
 
+.tema{
+    color: #1F009F;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    font-weight: 400;
+}
+
+.opgave{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    font-weight: 300;
 }
 
 nav ul li a::after{
@@ -97,11 +114,11 @@ nav ul li a:hover::after{
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out; 
     transition: all 0.3s ease-in-out; 
-    background-color: #1F009F ;
-
+    background-color: #1F009F;  
 }
 
-@media (max-width:800px) {
+
+@media (max-width:2000px) {
     .hamburger{
         display: block;
     }
@@ -122,9 +139,10 @@ nav ul li a:hover::after{
         width: 100%;
         text-align: center;
         transition: 0.3s;
-
-
+        background-color: #FAF5EF;
+        display: flex;
     }
+    
 
     .nav-links.active{
         left:0;
