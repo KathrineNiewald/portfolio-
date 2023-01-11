@@ -41,7 +41,7 @@
     nav ul li a {
         color: #1F009F;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 30px;
         position: relative;
     }
     
@@ -115,7 +115,7 @@ transform: translateY(-10px);
 .tema{
     color: #1F009F;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     font-weight: 400;
 }
@@ -123,7 +123,7 @@ transform: translateY(-10px);
 .opgave{
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     font-weight: 300;
 }
@@ -147,7 +147,7 @@ transform: translateY(-10px);
 
 }
 
-@media (max-width:2000px) {
+@media (max-width:2500px) {
     .hamburger{
         display: block;
     }
@@ -177,4 +177,5 @@ transform: translateY(-10px);
     .nav-links.active{
         left:0;
 
-    }}
+    }
+}

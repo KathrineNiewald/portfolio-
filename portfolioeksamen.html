@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex">
     <title>Portfolio eksamen</title>
     <link rel="icon" href="favicon/icon.png">
-    <link rel="stylesheet" href="styles/opgaver.css">
+    <link rel="stylesheet" href="styles/tema.css">
     <script src="https://kit.fontawesome.com/32d76c17d4.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -44,27 +44,42 @@
             </nav>
   <div id="portfolioeksamen">
     <div class="container">
-      <h1 class="overskrift">PORTFOLIOEKSAMEN</h1>
+      <h1 class="overskrift">PORTFOLIO EKSAMEN</h1>
       <div class="indhold">
-      <h2>----</h2>
+      <h2>Udvikling & proces af portfolio site</h2>
       <p>
-        Grundlæggende indhold gav os grundlæggende indførsel i videoproduktion, grundlæggende faglige begreber inden for video og fotoproduktion, og brug af tidligere færdigheder til at re-designe en virksomheds hjemmeside. 
+        I det sidste tema, portfolio eksamen, har jeg udviklet et site fungerende som et portfolio for alle opgaver i løbet af semesteret. Jeg har brugt viden og læring fra de tidligere temaer for at forstå hvordan jeg med HTML, CSS, javascript og designprincipper skal udvikle og designe et site. 
+        Mit portfolio indeholder en forside, en om mig side, en side med overblik over alle temaer, en side listet med temaets væsentligste opgaver, og herunder specifik tekst om opgavens processdokumentaion, løsning og teori. 
+        Jeg vil i følgende dokumentere og forklare dele af kodnings -og designprocessen bag udvikling af sitet.
         <br>
         <br>
-        I starten af temaet skulle en pilotvideo og site udformes individult. Her interviewede og filmede jeg en cafe manager på Cafe lille Petra. Efterfølgende skulle vi i en gruppe af fem re-designede en virksomheds website. Vi fandt frem til Cafe Kaf, og så potentiale i at udfordre og optimere deres hjemmeside. Herunder tillærte vi os erfaring, og anvendte tidligere færdigheder med kodning, test og video -og foto produktion. 
-        . </p>  
-      </div>
-      <div class="opgavelæring">
-        <i class="fa-solid fa-book-open"></i>
-        <h2>Proces og læring</h2>
-        <p>
-           ---
-          </p>
+        I begyndelsen af processen sørgede jeg for mappestruktur, opsætning af HTML, CSS, javascript og GitHub. Jeg oprettede flere CSS'er til at style HTML siderne. Flere af siderne stylede jeg ens, så derfor oprettede jeg en 'tema.css' til alle tema siderne, og en 'opgaver.css' til alle siderne for opgaverne.
+        Jeg opdelte billeder, dokumenter og styles i hver sin mappe indeni portfolio mappen. 
+        <img src="img/mappestruktur.png" alt="mappestruktur">  
+        Jeg startede med at udvikle forsiden. Her brugte jeg viden og færdigheder fra de foregående temaer inden for adobe illustrator, hvor jeg tegnede en del af KEA bygningen.   
+        <img src="img/bygning.png" alt="bygning">
+        <br>
+        <br>
+        Jeg har gennem processen arbejdet med en bestemt struktur for burgermenuen, kodet i HTML, CSS og javascript.
+        På forsiden refererer jeg kun links til 'portfolio siden' og 'om mig siden', da jeg ønskede en simpel forside med tekst stående fremme. I og med jeg har mange HTML sider ville det skabe forvirring og rod, hvis alle HTML sider stod fremme. 
+        <img src="img/burgermenu1.png" alt="menu">
+        Jeg satte dog en @media screen på forsiden på 1350px, så burgermenuen ville ses på en mindre skærm. 
+        <img src="img/burgermenu2.png" alt="menu">
+        For alle andre sider i portfolio sitet har burgermenuen et @media screen på 2500px for at gemme tekst og links væk fra både større og mindre skærme. Derudover har jeg placeret alle sitets HTML sider i burgermenuen efter en struktur, der følger de forskellige temaer og dets opgaver under. 
+        <img src="img/burgermenu3.png" alt="menu">
+        Burgermenuen er kodet i HTML, CSS og Javascript. 
+        I HTML indsatte jeg en div med class navnet "hamburger" med tre spans under med class navnet "bar".
+        <img src="img/menuhtml.png" alt="menu">
+        Jeg gav burgermenuen en display block for at uv listen med links blev opsat som en blok.  
+        <img src="img/menucss.png" alt="menu">
+        I javascript gjorde jeg burgermenuen interaktiv. 
+        <img src="img/menujs.png" alt="menu">
+        På 'om mig' siden udviklede jeg en knap i HTML og CSS for at linke til mit CV i en pdf fil. Knappen udviklede jeg senere også på alle opgave siderne, som en reference til opgaveløsningen, videoer og billeddokumentation. Her lavede jeg en div class rundt om et ikon og 'button' linket, for senere at style i CSS. 
+        <img src="img/knapkode.png" alt="kode">
+        Jeg stylede knappen ved at indsætte dets navn, hvorefter jeg blandt andet stylede den i farver, font, margin og padding. Jeg ville gerne gøre knappen mere brugervenlig og integrerende. Jeg anvendte derfor en 'hover' effekt over knappen, som er en selektor der anvendes for at selektere elementer, når musen kører over. for at gøre den mere brugervenlig. Under hover selektoren indsatte jeg en background-color for farven ville ændre sig, når man kører musen over. 
+        <img src="img/knapcss.png" alt="css">
+      </p>
         </div>
-        <div class="opgavelæring">
-          <i class="fa-solid fa-photo-film"></i>
-          <button onclick="location.href='documents/Procesdokumentation.pdf'">Se opgaveløsning</button>
-      </div>
     </div>
   </div>
 </div>
