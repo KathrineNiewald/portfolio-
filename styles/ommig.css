@@ -1,4 +1,4 @@
-@media (min-width: 400px) {
+@media (min-width: 300px) {
 
 @font-face {
     font-family: Montserrat;
@@ -28,7 +28,6 @@
 
  
 
-
 nav {
     align-items: center;
     justify-content: space-between;
@@ -41,7 +40,7 @@ nav {
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 5px 10px;
 
 }
 
@@ -156,7 +155,6 @@ button{
 
 }
 
-@media (max-width:2500px) {
     .hamburger{
         display: block;
     }
@@ -187,8 +185,6 @@ button{
         left:0;
 
     }
-}
-
   
     
 
