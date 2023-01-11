@@ -26,6 +26,8 @@
     
  }
 
+ 
+
 
 nav {
     align-items: center;
@@ -50,23 +52,6 @@ nav ul li a {
     font-size: 30px;
     position: relative;
 }
-
-
-nav ul li a::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #1F009F;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-
-}
-nav ul li a:hover::after{
-    width: 100%;
-}
-
 .tema{
     color: #1F009F;
     text-decoration: none;
@@ -81,6 +66,22 @@ nav ul li a:hover::after{
     font-size: 15px;
     position: relative;
     font-weight: 300;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #1F009F;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover::after{
+    width: 100%;
 }
 
 .row {
